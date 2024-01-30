@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "IMDB Clone",
-  description: "This is a movie database clone",
+  description: "This is a movie database clone using next.js",
 };
 
 export default function RootLayout({ children }) {
