@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
           <Header />
           <Navbar />
           <SearchBox></SearchBox>
-          {/* <Suspense fallback={<div>Loading...</div>}> */}
+          <Suspense fallback={<div>Loading...</div>}>
           {children}
-          {/* </Suspense> */}
+          </Suspense>
         </Providers>
         </body>
     </html>
