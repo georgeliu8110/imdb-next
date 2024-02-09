@@ -9,9 +9,9 @@ export default function Card({result}) {
         <Image src={`https://image.tmdb.org/t/p/original/${
           result.backdrop_path || result.poster_path
         }`}
-        width={500}
+        width={700}
         height={300}
-        className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity' alt=''>
+        className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300' alt=''>
 
         </Image>
         <div className='p-2'>
