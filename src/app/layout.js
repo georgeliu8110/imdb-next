@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Providers>
           <Header />
+          <Suspense fallback={<div>Loading...</div>}>
           <Navbar />
           <SearchBox></SearchBox>
-          <Suspense fallback={<div>Loading...</div>}>
           {children}
           </Suspense>
         </Providers>
